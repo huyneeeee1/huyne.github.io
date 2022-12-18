@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.riotbar-header{
+    display: flex;
+}
+#header{
+    background-color: rgb(17, 16, 16);
+    border-bottom: 2px solid rgba(17,51,51,.25);
+    font-family: "FF Mark W05",Arial,sans-serif;
+    font-size: 14px !important;
+    font-weight: bold;
+    height: 80px;
+    line-height: normal;
+    position: relative;
+    text-align: left;
+    display: flex;
+    width: 100%;
+    z-index: 3000000;
+    position: fixed;
+    
+}
+.logo-riot img{
+    width: 119px;
+    height: 59px;
+    padding: 10px 10px 10px 14px;
+    
+}
+.riot-center-content{
+    display: flex;
+}
+.logo-lol img{
+    width: 70px;
+    padding-top: 10px;
+}
+.center-title{
+    display: flex;
+    align-items: center;
+  
+}
+#nav{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.center-title a{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#nav, .subnav{
+    list-style: none;
+}
+#nav > li{
+    display: block;
+    display: inline-block;
+}
+#nav li{
+    position: relative;
+}
+#nav > li >a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 13px;
+}
+#nav li a{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+}
+#nav .subnav li:hover,
+#nav > li:hover > a{
+    color: black;
+    background-color: rgb(157, 154, 154);
+    border-radius: 5px;
+    border-bottom: 4px solid rgb(159, 159, 13);
+}
+#nav li:hover .subnav{
+    display: block;
+}
+
+
+#nav .subnav{
+    width: 190px;
+    display: none;
+    position: absolute;
+    background-color:#656565;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) ;
+    border-top: 5px solid aqua;
+    border-radius: 5px;
+}
+#nav .subnav a{
+    color:white;
+    padding: 0 20px;
+    
+}
+ 
+.riot-right-content{
+    display: flex;
+}
+
+.riot-right-content .fa-sharp{
+    margin-top: 28px;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+}
+.nav, .subnav2{
+    list-style: none;
+}
+.nav2 > li{
+    display: block;
+    display: inline-block;
+}
+.nav2 li{
+    position: relative;
+}
+.nav2 > li >a {
+    text-transform: uppercase;
+    color: white;
+}
+.nav2 li a{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.nav2 .subnav2 li:hover,
+.nav2 > li:hover > a{
+    color: black;
+    background-color: rgb(157, 154, 154);
+    border-radius: 5px;
+}
+.nav2 li:hover .subnav2{
+    display: block;
+
+}
+
+
+.nav2 .subnav2{
+    width: 190px;
+    display: none;
+    position: absolute;
+    background-color:#656565;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) ;
+    border-top: 5px solid aqua;
+    border-radius: 5px;
+}
+.nav2 .subnav2 a{
+    color:rgb(255, 255, 255);
+    padding: 0 37px;
+    
+}
+.fa-globe{
+    font-size: 20px;
+    color: white;
+    margin:0px 10px 0px 50px;
+}
+.nav2 .my-accout-top{
+    font-size: 13px;
+}
+.subnav2 .my-accout{
+    font-size: 13px;
+    border-bottom: 2px solid rgb(147, 147, 10);
+}
+
+.riot-footer{
+    background-color: #111;
+    padding: 0px 0px 48px;
+    border-top: 2px solid #343434;
+    box-sizing: border-box;
+}
+.logo-footer{
+    display: flex;
+    justify-content: center;
+}
+.logo-footer img{
+    width: 135px;
+    height: 55px;
+    margin: 20px;
+}
+.text h4{
+    color: white;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    margin: 0 auto;
+    max-width: 640px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    text-align: center;
+    word-break: keep-all;
+    color: #7e7e7e;
+    box-sizing: border-box;
+}
+.button-footer li a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0px 20px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.button-footer ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+.button-footer ul{
+    list-style: none;
+}
+.button-footer li a:hover{
+    background-color: #7e7e7e;
+}
+.game-rating{
+    user-select: none;
+    box-sizing: border-box;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.gamebar-rating{
+    max-width: 100%;
+    padding: 8px 12px;
+    background: #292929;
+    border-radius: 8px;
+    margin: 50px 0px;
+}
+.rating-text-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.rattng-text{
+    color:white;
+    padding-left: 15px;
+}
+#main-content{
+    padding-top: 70px;
+}
+.top-content{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(135deg,rgba(1,10,19,.9) 10%,rgba(36,39,41,0) 60%),linear-gradient(45deg,rgba(1,10,19,.8),rgba(36,39,41,0) 70%),url(https://images.contentstack.io/v3/assets/blt187521ff0727be24/blt04df40623a9033c1/60ee0c549b106723984be59b/sentinels-series-header.jpg);
+    background-size: 100% auto; ;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.root{
+    position: relative;
+    width: 1200px;
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.root h1{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    line-height: 1.05;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #f0e6d2;
+    line-height: 30px;
+    line-height: 30px;
+}
+
+.root p{
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 1.42817;
+    letter-spacing: 0.025em;
+    color: rgb(4, 118, 134);
+    width: 350px;
+    font-weight: bold;
+
+}
+.root button{
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(5, 104, 104);
+    border-radius: 5px ;
+}
+.root button a{
+    
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+.new-upload{
+    background-image: url(../img/comics/recentComicsBackground__3qSPC.png);
+    background-repeat: no-repeat;
+    background-color: #010a13;
+    background-size: cover;
+}
+.main-upload{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.new-upload hr{
+    width: 50%;
+
+}
+.new-upload h1{
+    padding: 70px 0px 0px 160px;
+    color: wheat;
+    font-size: 20px;
+}
+.main-upload{
+    display: flex;
+    justify-content:center;
+    height: 500px;
+    align-items: center;
+}
+.main-upload a .item{
+    width:280px;
+    height: 418px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px 5px rgb(40, 39, 39);
+    margin-left: 20px;
+    
+}
+.main-upload a .item1{
+    background-image:linear-gradient(0deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(35deg,#010a13 10%,rgba(36,39,41,0) 40%), url(https://images.contentstack.io/v3/assets/blt187521ff0727be24/blt7f3dc8d1c2471a03/61306fb66768907ea9769239/sentinels-6-cover.jpeg);
+ 
+    
+}
+.main-upload a .item2{
+    background-image: linear-gradient(0deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(35deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/comics/sentinels-5-cover.jpg);
+    margin-left: 10px;
+}
+.main-upload a .item3{
+    background-image: linear-gradient(0deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(35deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/comics/issue-4-cover.jpg);
+    margin-left: 10px;
+}
+.main-upload a .item4{
+    background-image:linear-gradient(0deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(35deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/comics/issue-3-cover.jpeg);
+    margin-left: 10px;
+}
+.main-upload .item h3{
+    font-size: 18px;
+    color: #f0e6d2;
+    padding-top: 390px;
+}
+.main-upload a .item:hover{
+    border: 3px solid rgba(152, 152, 6, 0.791);
+}
+.comic-series{
+    background-image: url(../img/comics/recentComicsBackground__3qSPC.png);
+    background-repeat: no-repeat;
+    background-color: #010a13;
+    background-size: cover;
+}
+.series-content h1{
+    color: wheat;
+    padding: 70px 0px 0px 160px;
+    font-size: 20px;
+}
+.series-content hr{
+    width: 50%;
+    font-size: 20px;
+}
+.main-series{
+    display: flex;
+    justify-content:center;
+    height: 500px;
+}
+.main-series .item{
+    width:390px;
+    height: 287px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    margin-right: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(40, 39, 39);
+}
+.main-series .item1{
+    background-image:linear-gradient(0deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(35deg,#010a13 10%,rgba(36,39,41,0) 40%), url(https://images.contentstack.io/v3/assets/blt187521ff0727be24/blt04df40623a9033c1/60ee0c549b106723984be59b/sentinels-series-header.jpg);
+    background-size: cover;
+}
+
+.main-series .item2{
+    background-image:linear-gradient(0deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(35deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/comics/kdacomic-seriesheader.jpg);
+    background-size: cover;
+}
+.main-series .item3{
+    background-image:linear-gradient(0deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(35deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/comics/zed-series-header.jpg);
+    background-size: cover;
+}
+.main-series .item h3{
+    font-size: 18px;
+    color: #f0e6d2;
+    padding-top: 250px;
+    padding-left: 10px;
+}
+
+.main-series .item:hover{
+    border: 3px solid rgba(152, 152, 6, 0.791);
+}
+.one-shot{
+    background-image: url(../img/comics/oneshotsBackground__1isiI.png);
+    background-repeat: no-repeat;
+    background-color: #010a13;
+    background-size: cover;
+}
+.oneshot-content h1{
+    color: wheat;
+    padding: 70px 0px 0px 160px;
+    font-size: 20px;
+}
+/* .main-upload{
+    width: 1200px;
+} */
+.oneshot-content hr{
+    width: 50%;
+}
+
+.main-oneshot{
+    display: flex;
+    justify-content:center;
+    height: 500px;
+}
+.main-oneshot a .item{
+    width:280px;
+    height: 418px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px 5px rgb(40, 39, 39);
+    margin-right: 20px;
+}
+.main-oneshot a .item1{
+    background-image:linear-gradient(0deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(35deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/comics/ryze-cover2.jpg);
+    background-size: cover;
+}
+.main-oneshot a .item2{
+    background-image:linear-gradient(0deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(35deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/comics/varus.jpg);
+    background-size: cover;
+}
+
+.main-oneshot a .item3{
+    background-image:linear-gradient(0deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(35deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/comics/varus-issue-1.jpg);
+    background-size: cover;
+}
+.main-oneshot a .item4{
+    background-image:linear-gradient(0deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(35deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/comics/jinx-ziggs.jpg);
+    background-size: cover;
+}
+.main-oneshot h3{
+    font-size: 18px;
+    color: #f0e6d2;
+    padding-top: 2px;
+    padding-left: 10px;
+}
+.main-oneshot h4{
+    font-size: 12px;
+    color: #f0e6d2;
+    padding-top: 355px;
+    padding-left: 10px;
+    font-weight: normal;
+}
+.main-oneshot a .item:hover{
+    border: 3px solid rgba(152, 152, 6, 0.791);
+}

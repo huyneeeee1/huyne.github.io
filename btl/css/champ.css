@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.riotbar-header{
+    display: flex;
+}
+#header{
+    background-color: rgb(17, 16, 16);
+    border-bottom: 2px solid rgba(17,51,51,.25);
+    font-family: "FF Mark W05",Arial,sans-serif;
+    font-size: 14px !important;
+    font-weight: bold;
+    height: 80px;
+    line-height: normal;
+    position: relative;
+    text-align: left;
+    display: flex;
+    width: 100%;
+    z-index: 3000000;
+    position: fixed;
+    
+}
+.logo-riot img{
+    width: 119px;
+    height: 59px;
+    padding: 10px 10px 10px 14px;
+    
+}
+.riot-center-content{
+    display: flex;
+}
+.logo-lol img{
+    width: 70px;
+    padding-top: 10px;
+}
+.center-title{
+    display: flex;
+    align-items: center;
+  
+}
+#nav{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.center-title a{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#nav, .subnav{
+    list-style: none;
+}
+#nav > li{
+    display: block;
+    display: inline-block;
+}
+#nav li{
+    position: relative;
+}
+#nav > li >a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 13px;
+}
+#nav li a{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+}
+#nav .subnav li:hover,
+#nav > li:hover > a{
+    color: black;
+    background-color: rgb(157, 154, 154);
+    border-radius: 5px;
+    border-bottom: 4px solid rgb(159, 159, 13);
+}
+#nav li:hover .subnav{
+    display: block;
+}
+
+
+#nav .subnav{
+    width: 190px;
+    display: none;
+    position: absolute;
+    background-color:#656565;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) ;
+    border-top: 5px solid aqua;
+    border-radius: 5px;
+}
+#nav .subnav a{
+    color:white;
+    padding: 0 20px;
+    
+}
+ 
+.riot-right-content{
+    display: flex;
+}
+
+.riot-right-content .fa-sharp{
+    margin-top: 28px;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+}
+.nav, .subnav2{
+    list-style: none;
+}
+.nav2 > li{
+    display: block;
+    display: inline-block;
+}
+.nav2 li{
+    position: relative;
+}
+.nav2 > li >a {
+    text-transform: uppercase;
+    color: white;
+}
+.nav2 li a{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.nav2 .subnav2 li:hover,
+.nav2 > li:hover > a{
+    color: black;
+    background-color: rgb(157, 154, 154);
+    border-radius: 5px;
+}
+.nav2 li:hover .subnav2{
+    display: block;
+
+}
+
+
+.nav2 .subnav2{
+    width: 190px;
+    display: none;
+    position: absolute;
+    background-color:#656565;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) ;
+    border-top: 5px solid aqua;
+    border-radius: 5px;
+}
+.nav2 .subnav2 a{
+    color:rgb(255, 255, 255);
+    padding: 0 37px;
+    
+}
+.fa-globe{
+    font-size: 20px;
+    color: white;
+    margin:0px 10px 0px 50px;
+}
+.nav2 .my-accout-top{
+    font-size: 13px;
+}
+.subnav2 .my-accout{
+    font-size: 13px;
+    border-bottom: 2px solid rgb(147, 147, 10);
+}
+.riot-footer{
+    background-color: #111;
+    padding: 0px 0px 48px;
+    border-top: 2px solid #343434;
+    box-sizing: border-box;
+}
+.logo-footer{
+    display: flex;
+    justify-content: center;
+}
+.logo-footer img{
+    width: 135px;
+    height: 55px;
+    margin: 20px;
+}
+.text h4{
+    color: white;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    margin: 0 auto;
+    max-width: 640px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    text-align: center;
+    word-break: keep-all;
+    color: #7e7e7e;
+    box-sizing: border-box;
+}
+.button-footer li a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0px 20px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.button-footer ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+.button-footer ul{
+    list-style: none;
+}
+.button-footer li a:hover{
+    background-color: #7e7e7e;
+}
+.game-rating{
+    user-select: none;
+    box-sizing: border-box;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.gamebar-rating{
+    max-width: 100%;
+    padding: 8px 12px;
+    background: #292929;
+    border-radius: 8px;
+    margin: 50px 0px;
+}
+.rating-text-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.rattng-text{
+    color:white;
+    padding-left: 15px;
+}
+#main-content{
+    padding-top: 70px;
+}
+.top-content{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(135deg,rgba(1,10,19,.9) 10%,rgba(36,39,41,0) 60%),linear-gradient(45deg,rgba(1,10,19,.8),rgba(36,39,41,0) 70%),url(https://images.contentstack.io/v3/assets/blt187521ff0727be24/blt04df40623a9033c1/60ee0c549b106723984be59b/sentinels-series-header.jpg);
+    background-size: 100% auto; ;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.root{
+    position: relative;
+    width: 1200px;
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.root h1{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    line-height: 1.05;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #f0e6d2;
+    line-height: 30px;
+    line-height: 30px;
+}
+
+.root p{
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 1.42817;
+    letter-spacing: 0.025em;
+    color: rgb(4, 118, 134);
+    width: 350px;
+    font-weight: bold;
+
+}
+.root button{
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(5, 104, 104);
+    border-radius: 5px ;
+}
+.root button a{
+    
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+#main{
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/comics/recentComicsBackground__3qSPC.png);
+    background-color: #080808;
+    background-size: cover;
+}
+.content .title{
+    display: flex;
+    justify-content: center;
+    margin: 0 350px;
+}
+.content .title .line{
+    padding-top: 185px;
+    margin: 0 10px;
+}
+.content .title .line img{
+    width: 300px;
+    height: 3px;
+}
+.content .title .center{
+    margin-top: 50px;
+    padding: 0 10px;
+}
+.content .title .center img{
+    width: 50px;
+    height: 63px;
+    padding: 54px 22px 10px 35px;
+}
+.content .title .center h1{
+    color: #c4b998;
+   
+}
+.main-content{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.main-content a{
+    width: 220px ;
+    height: 350px;
+    margin-left: 15px;
+    margin-top: 50px;
+    border: 2px solid rgb(79, 78, 78);
+    box-shadow: 0 0 16px 14px rgba(53, 14, 14, 0.2);
+}
+.main-content img{
+    width: 230px;
+    height: 100px;
+}
+
+.main-content a .name{
+    height: 50px;
+    background-color: rgba(10,10,12,.9);
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid rgb(66, 66, 4);
+    border-bottom: 2px solid rgb(79, 78, 78) ;
+}
+.main-content a .name h1{
+    color: #937341;
+    margin-top: 5px;
+}
+.main-content .item1{
+    background-image: url(../img/champ/aatrox-splash.jpg);
+    background-size: cover;
+}
+.main-content .item2{
+    background-image: url(../img/champ/Ahri_0.jpg);
+    background-size: cover;
+}
+.main-content .item3{
+    background-image: url(../img/champ/Classic_Akali_Splash.jpg);
+    background-size: cover;
+}
+.main-content .item4{
+    background-image: url(../img/champ/Classic_Irelia_Splash.jpg);
+    background-size: cover;
+}
+.main-content .item5{
+    background-image: url(../img/champ/Corki_0.jpg);
+    background-size: cover;
+}
+.main-content .item6{
+    background-image: url(../img/champ/Ekko_0.jpg);
+    background-size: cover;
+}
+.main-content .item7{
+    background-image: url(../img/champ/Gnar_0.jpg);
+    background-size: cover;
+}
+.main-content .item8{
+    background-image: url(../img/champ/Graves_0.jpg);
+    background-size: cover;
+}
+.main-content .item9{
+    background-image: url(../img/champ/Jhin_0.jpg);
+    background-size: cover;
+}
+.main-content .item10{
+    background-image: url(../img/champ/Garen_0.jpg);
+    background-size: cover;
+}
+.main-content .item11{
+    background-image: url(../img/champ/Janna_0.jpg);
+    background-size: cover;
+}
+.main-content .item12{
+    background-image: url(../img/champ/Jax_0.jpg);
+    background-size: cover;
+}
+.main-content .item13{
+    background-image: url(../img/champ/Jinx_0.jpg);
+    background-size: cover;
+}
+.main-content .item14{
+    background-image: url(../img/champ/Karma_0.jpg);
+    background-size: cover;
+}
+.main-content .item15{
+    background-image: url(../img/champ/Kalista_0.jpg);
+    background-size: cover;
+}
+.main-content .item16{
+    background-image: url(../img/champ/Katarina_0.jpg);
+    background-size: cover;
+}
+.main-content .item17{
+    background-image: url(../img/champ/kayn-splash-resized.jpg);
+    background-size: cover;
+}
+.main-content .item18{
+    background-image: url(../img/champ/Kayle_0.jpg);
+    background-size: cover;
+}
+.main-content .item19{
+    background-image: url(../img/champ/Hecarim_0.jpg);
+    background-size: cover;
+}
+.main-content .item20{
+    background-image: url(../img/champ/Ivern_0.jpg);
+    background-size: cover;
+}
+.main-content .item21{
+    background-image: url(../img/champ/Karthus_0.jpg);
+    background-size: cover;
+}
+.main-content .item22{
+    background-image: url(../img/champ/kaisa-splash.jpg);
+    background-size: cover;
+}
+.main-content .item23{
+    background-image: url(../img/champ/Fiora_0.jpg);
+    background-size: cover;
+}
+.main-content .item24{
+    background-image: url(../img/champ/Darius_0.jpg);
+    background-size: cover;
+}
+.main-content .item25{
+    background-image: url(../img/champ/Diana_0.jpg);
+    background-size: cover;
+}
+.main-content a:hover{
+    transform: scale(1.1);
+    border: 2px solid rgb(88, 92, 14);
+}

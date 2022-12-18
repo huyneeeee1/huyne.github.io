@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.riotbar-header{
+    display: flex;
+}
+#header{
+    background-color: rgb(17, 16, 16);
+    border-bottom: 2px solid rgba(17,51,51,.25);
+    font-family: "FF Mark W05",Arial,sans-serif;
+    font-size: 14px !important;
+    font-weight: bold;
+    height: 80px;
+    line-height: normal;
+    position: relative;
+    text-align: left;
+    display: flex;
+    width: 100%;
+    z-index: 3000000;
+    position: fixed;
+    
+}
+.logo-riot img{
+    width: 119px;
+    height: 59px;
+    padding: 10px 10px 10px 14px;
+    
+}
+.riot-center-content{
+    display: flex;
+}
+.logo-lol img{
+    width: 70px;
+    padding-top: 10px;
+}
+.center-title{
+    display: flex;
+    align-items: center;
+  
+}
+#nav{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.center-title a{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#nav, .subnav{
+    list-style: none;
+}
+#nav > li{
+    display: block;
+    display: inline-block;
+}
+#nav li{
+    position: relative;
+}
+#nav > li >a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 13px;
+}
+#nav li a{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+}
+#nav .subnav li:hover,
+#nav > li:hover > a{
+    color: black;
+    background-color: rgb(157, 154, 154);
+    border-radius: 5px;
+    border-bottom: 4px solid rgb(159, 159, 13);
+}
+#nav li:hover .subnav{
+    display: block;
+}
+#nav .subnav{
+    width: 190px;
+    display: none;
+    position: absolute;
+    background-color:#656565;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) ;
+    border-top: 5px solid aqua;
+    border-radius: 5px;
+}
+#nav .subnav a{
+    color:white;
+    padding: 0 20px;
+    
+}
+ 
+.riot-right-content{
+    display: flex;
+}
+
+.riot-right-content .fa-sharp{
+    margin-top: 28px;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+}
+.nav, .subnav2{
+    list-style: none;
+}
+.nav2 > li{
+    display: block;
+    display: inline-block;
+}
+.nav2 li{
+    position: relative;
+}
+.nav2 > li >a {
+    text-transform: uppercase;
+    color: white;
+}
+.nav2 li a{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.nav2 .subnav2 li:hover,
+.nav2 > li:hover > a{
+    color: black;
+    background-color: rgb(157, 154, 154);
+    border-radius: 5px;
+}
+.nav2 li:hover .subnav2{
+    display: block;
+
+}
+.nav2 .subnav2{
+    width: 190px;
+    display: none;
+    position: absolute;
+    background-color:#656565;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) ;
+    border-top: 5px solid aqua;
+    border-radius: 5px;
+}
+.nav2 .subnav2 a{
+    color:rgb(255, 255, 255);
+    padding: 0 37px;
+    
+}
+.fa-globe{
+    font-size: 20px;
+    color: white;
+    margin:0px 10px 0px 50px;
+}
+.nav2 .my-accout-top{
+    font-size: 13px;
+}
+.subnav2 .my-accout{
+    font-size: 13px;
+    border-bottom: 2px solid rgb(147, 147, 10);
+}
+.riot-footer{
+    background-color: #111;
+    padding: 0px 0px 48px;
+    border-top: 2px solid #343434;
+    box-sizing: border-box;
+    width: 100%;
+}
+.logo-footer{
+    display: flex;
+    justify-content: center;
+}
+.logo-footer img{
+    width: 135px;
+    height: 55px;
+    margin: 20px;
+}
+.text h4{
+    color: white;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    margin: 0 auto;
+    max-width: 640px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    text-align: center;
+    word-break: keep-all;
+    color: #7e7e7e;
+    box-sizing: border-box;
+}
+.button-footer li a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0px 20px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.button-footer ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+.button-footer ul{
+    list-style: none;
+}
+.button-footer li a:hover{
+    background-color: #7e7e7e;
+}
+.game-rating{
+    user-select: none;
+    box-sizing: border-box;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.gamebar-rating{
+    max-width: 100%;
+    padding: 8px 12px;
+    background: #292929;
+    border-radius: 8px;
+    margin: 50px 0px;
+}
+.rating-text-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.rattng-text{
+    color:white;
+    padding-left: 15px;
+}
+#main{
+    background-image: url(https://universe.leagueoflegends.com/esimages/Universe_Explore_BG_orig__3pIBC.jpg);
+    background-color: #080808;
+    background-size: cover;
+}
+.content{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.content .header h1{
+    font-weight: 700;
+    font-size: 60px;
+    color: #f0e6d2;
+    line-height: 1.2;
+    padding: 150px 0 20px 120px;
+}
+.tong {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tuong1 {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/khampha/ksante-color-splash.jpg);   
+    margin: 20px;
+    padding: 1px;
+    
+}
+.nd1{
+    padding: 20px;
+    color: white;
+    padding-TOP: 90%;
+}
+.nd1 h2 {
+    font-size: 15px;
+}
+.nd1 h3 {
+    font-size: 20px;
+}
+.theloai {
+    display: flex;
+    padding-left: 20px;
+}
+.theloai img{
+    border: 1px solid gray;
+    background-color: yellowgreen;
+    padding: 10px 10px;
+}
+.theloai span {
+    display: flex;
+    text-align: center;
+    border: 1px solid gray;
+    border-left: none;
+    padding: 10px 10px;
+    color: white;
+    text-transform: uppercase;
+}
+.tuong2 {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/khampha/Star-GuardianCover4_RGB.jpg);    
+    margin: 20px;
+    padding: 1px;
+}
+.tuong3 {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/khampha/Star-GuardianCover5_RGB.jpg);    
+    margin: 20px;
+    padding: 1px;
+}
+.tuong4 {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/khampha/Star-GuardianCover3_RGB.jpg);    
+    margin: 20px;
+    padding: 1px;
+}
+.tuong5 {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/khampha//Screenshot\ 2022-12-15\ 201537.png);    
+    margin: 20px;
+    padding: 1px;
+}
+.tuong6 {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/khampha/tf-graves-pride-banner.jpg);    
+    margin: 20px;
+    padding: 1px;
+}
+.tuong7 {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/khampha/Screenshot\ 2022-12-15\ 203040.png);    
+    margin: 20px;
+    padding: 1px;
+}
+.tuong8 {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/khampha/eyes-and-embers-splash.jpg);    
+    margin: 20px;
+    padding: 1px;
+}
+.tuong9 {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/khampha/RENAT.png);    
+    margin: 20px;
+    padding: 1px;
+}
+.tuong10 {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/khampha/NEON.png);    
+    margin: 20px;
+    padding: 1px;
+}
+.tuong11 {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/khampha/tran.png);    
+    margin: 20px;
+    padding: 1px;
+}
+.tuong12 {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/khampha/kaisa.png);    
+    margin: 20px;
+    padding: 1px;
+}
+.tuong13 {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/khampha/tranchien.png);    
+    margin: 20px;
+    padding: 1px;
+}
+.tuong14 {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/khampha/Sejuani-story_final3b.jpg);    
+    margin: 20px;
+    padding: 1px;
+}
+.tuong15 {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/khampha/LoL_WB_Malzahar_Illustration_01_FINAL.jpg);    
+    margin: 20px;
+    padding: 1px;
+}
+.tuong16 {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/khampha/gay.png);    
+    margin: 20px;
+    padding: 1px;
+}
+.tuong17 {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/khampha/bảd.png);    
+    margin: 20px;
+    padding: 1px;
+}
+.tuong18 {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/khampha/sach.png);    
+    margin: 20px;
+    padding: 1px;
+}
+.tuong19 {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/khampha/noctua.png);    
+    margin: 20px;
+    padding: 1px;
+}
+.tuong20 {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    background-image:linear-gradient(67deg,#010a13 5%,rgba(36,39,41,.4) 30%,rgba(36,39,41,0) 70%),linear-gradient(351deg,#010a13 10%,rgba(36,39,41,0) 40%), url(../img/khampha/akshan-color-splash.jpeg);    
+    margin: 20px;
+    padding: 1px;
+}
+
+
+
+

@@ -1,0 +1,549 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.riotbar-header{
+    display: flex;
+}
+#header{
+    background-color: rgb(17, 16, 16);
+    border-bottom: 2px solid rgba(17,51,51,.25);
+    font-family: "FF Mark W05",Arial,sans-serif;
+    font-size: 14px !important;
+    font-weight: bold;
+    height: 80px;
+    line-height: normal;
+    position: relative;
+    text-align: left;
+    display: flex;
+    width: 100%;
+    z-index: 3000000;
+    position: fixed;
+    
+}
+.logo-riot img{
+    width: 119px;
+    height: 59px;
+    padding: 10px 10px 10px 14px;
+    
+}
+.riot-center-content{
+    display: flex;
+}
+.logo-lol img{
+    width: 70px;
+    padding-top: 10px;
+}
+.center-title{
+    display: flex;
+    align-items: center;
+  
+}
+#nav{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.center-title a{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#nav, .subnav{
+    list-style: none;
+}
+#nav > li{
+    display: block;
+    display: inline-block;
+}
+#nav li{
+    position: relative;
+}
+#nav > li >a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 13px;
+}
+#nav li a{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+}
+#nav .subnav li:hover,
+#nav > li:hover > a{
+    color: black;
+    background-color: rgb(157, 154, 154);
+    border-radius: 5px;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+
+
+#nav .subnav{
+    width: 190px;
+    display: none;
+    position: absolute;
+    background-color:#656565;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) ;
+    border-top: 5px solid aqua;
+    border-radius: 5px;
+}
+#nav .subnav a{
+    color:white;
+    padding: 0 20px;
+    
+}
+ 
+.riot-right-content{
+    display: flex;
+}
+
+.riot-right-content .fa-sharp{
+    margin-top: 28px;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+}
+.nav, .subnav2{
+    list-style: none;
+}
+.nav2 > li{
+    display: block;
+    display: inline-block;
+}
+.nav2 li{
+    position: relative;
+}
+.nav2 > li >a {
+    text-transform: uppercase;
+    color: white;
+}
+.nav2 li a{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.nav2 .subnav2 li:hover,
+.nav2 > li:hover > a{
+    color: black;
+    background-color: rgb(157, 154, 154);
+    border-radius: 5px;
+}
+.nav2 li:hover .subnav2{
+    display: block;
+
+}
+
+
+.nav2 .subnav2{
+    width: 190px;
+    display: none;
+    position: absolute;
+    background-color:#656565;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) ;
+    border-top: 5px solid aqua;
+    border-radius: 5px;
+}
+.nav2 .subnav2 a{
+    color:rgb(255, 255, 255);
+    padding: 0 37px;
+    
+}
+.fa-globe{
+    font-size: 20px;
+    color: white;
+    margin:0px 10px 0px 50px;
+}
+.nav2 .my-accout-top{
+    font-size: 13px;
+}
+.subnav2 .my-accout{
+    font-size: 13px;
+    border-bottom: 2px solid rgb(147, 147, 10);
+}
+.riot-footer{
+    background-color: #111;
+    padding: 0px 0px 48px;
+    border-top: 2px solid #343434;
+    box-sizing: border-box;
+}
+.logo-footer{
+    display: flex;
+    justify-content: center;
+}
+.logo-footer img{
+    width: 135px;
+    height: 55px;
+    margin: 20px;
+}
+.text h4{
+    color: white;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    margin: 0 auto;
+    max-width: 640px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    text-align: center;
+    word-break: keep-all;
+    color: #7e7e7e;
+    box-sizing: border-box;
+}
+.button-footer li a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0px 20px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.button-footer ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+.button-footer ul{
+    list-style: none;
+}
+.button-footer li a:hover{
+    background-color: #7e7e7e;
+}
+.game-rating{
+    user-select: none;
+    box-sizing: border-box;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.gamebar-rating{
+    max-width: 100%;
+    padding: 8px 12px;
+    background: #292929;
+    border-radius: 8px;
+    margin: 50px 0px;
+}
+.rating-text-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.rattng-text{
+    color:white;
+    padding-left: 15px;
+}
+#main-content{
+    padding-top: 70px;
+}
+.top-content{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(135deg,rgba(1,10,19,.9) 10%,rgba(36,39,41,0) 60%),linear-gradient(45deg,rgba(1,10,19,.8),rgba(36,39,41,0) 70%),url(https://images.contentstack.io/v3/assets/blt187521ff0727be24/blt04df40623a9033c1/60ee0c549b106723984be59b/sentinels-series-header.jpg);
+    background-size: 100% auto; ;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.root{
+    position: relative;
+    width: 1200px;
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.root h1{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    line-height: 1.05;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #f0e6d2;
+    line-height: 30px;
+    line-height: 30px;
+}
+
+.root p{
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 1.42817;
+    letter-spacing: 0.025em;
+    color: rgb(4, 118, 134);
+    width: 350px;
+    font-weight: bold;
+
+}
+.root button{
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(5, 104, 104);
+    border-radius: 5px ;
+}
+.root button a{
+    
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+#main{
+    padding-top: 80px;
+}
+.container{
+    width: 100%;
+    background-color: #000000;
+    background-size: cover;
+}
+.carousel-inner .active{
+    background-image: url(../img/home/shurima_splash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    padding-top: 400px;
+    border: 2px solid rgb(107, 107, 23);
+}
+.content a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: rgba(53, 53, 54,0.9);
+    border: 2px solid rgb(96, 96, 28);
+}
+.content a h1{
+    padding: 0px 65px;
+    display: flex ;
+    align-items: center;
+    border: 2px solid rgb(96, 96, 28);
+}
+
+
+.carousel-inner .item{
+    width: 100%;
+    height: 500px;
+}
+.carousel-inner .item .item1{
+    background-image: url(../img/khuvuc/demacia_splash.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.carousel-inner .item .item2{
+    background-image: url(../img/khuvuc/freljord_splash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.carousel-inner .item .item3{
+    background-image: url(../img/khuvuc/noxus_splash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.carousel-inner .item .item4{
+    background-image: url(../img/khuvuc/ionia-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.glyphicon-chevron-left{
+    border-radius: 50% ;
+    border: 4px solid rgb(107, 107, 23);
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+    width: 40px;
+    height: 39px;
+    background-color: #343434;
+}
+.glyphicon-chevron-right{
+    border-radius: 50% ;
+    border: 4px solid rgb(107, 107, 23);
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+    width: 40px;
+    height: 39px;
+    background-color: #343434;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    left: 25%;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev {
+    right: 10%;
+}
+.new{
+    background-image: url(../img/comics/recentComicsBackground__3qSPC.png);
+    background-size: cover;
+    background-color: #000000;
+}
+.new .title{
+    display: flex;
+    justify-content: center;
+    margin: 0 350px;
+}
+.new .title .line{
+    padding-top: 120px;
+    margin: 0 10px;
+}
+.new .title .line img{
+    width: 500px;
+    height: 3px;
+    margin: 0 25px;
+}
+.new .title .center{
+    margin-top: 50px;
+    width: 240px;
+}
+.new .title .center img{
+    width: 40px;
+    height: 41px;
+    margin: 0 65px;
+}
+.new .title .center h1{
+    color: #c4b998;
+    width: 180px;  
+}
+.main{
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+}
+.main .left{
+    width: 50%;
+    height: 690px;
+    margin: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.champ-left .item{
+    width:285px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 5px 5px rgb(40, 39, 39);
+    margin-left: 20px;
+    margin-top: 20px;
+    border:2px solid rgb(66, 66, 4) ;
+}
+.champ-left{
+    width: 100%;
+    flex-wrap: wrap ;
+    display: flex;
+}
+.champ-left .item1{
+    background-image: url(../img/home/renata-splash.jpg);
+    background-size: cover;
+}
+.champ-left .item2{
+    background-image: url(../img/home/belveth-splash.jpg);
+    background-size: cover;
+}
+.champ-left .item3{
+    background-image: url(../img/home/nilah-splash.jpg);
+    background-size: cover;
+}
+.champ-left .item4{
+    background-image: url(../img/home/zeri-splashv2.jpg);
+    background-size: cover;
+}
+a .name{
+    height: 50px;
+    background-color: rgba(10,10,12,.9);
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgb(66, 66, 4);
+    border-bottom:2px solid rgb(66, 66, 4) ;
+}
+a .name h3{
+    margin: 0;
+    border-bottom:2px solid rgb(66, 66, 4) ;
+    color: rgb(66, 66, 4);
+}
+.right{
+    width: 50%;
+    height: 100%;
+}
+.champ-right{
+    width: 100%;
+    height: 650px;
+    margin: 27px 10px 10px 10px;
+    border: 2px rgb(66, 66, 4) solid;
+    background-image: url(../img/home/ksante-splash\ \(1\).jpg);
+}
+.name5{
+    height: 50px;
+    background-color: rgba(10,10,12,.9);
+    margin-top: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgb(66, 66, 4);
+    border-bottom:2px solid rgb(66, 66, 4) ;
+}
+.item:hover{
+    transform: scale(1.1);
+    border: 2px solid rgb(88, 92, 14);
+}
+.champ-right:hover{
+    transform: scale(1.1);
+    border: 2px solid rgb(88, 92, 14);
+}
+.champ-left .item6{
+    background-image: url(../img/home/Blitzcrank_0.jpg);
+    background-size: cover;
+}
+.champ-left .item7{
+    background-image: url(../img/home/Classic_Mordekaiser_Splash.jpg);
+    background-size: cover;
+}
+.champ-left .item8{
+    background-image: url(../img/home/Lulu_0.jpg);
+    background-size: cover;
+}
+.champ-left .item9{
+    background-image: url(../img/home/senna-splash.jpg);
+    background-size: cover;
+}
+.champ-5:hover{
+    transform: scale(1.1);
+    border: 2px solid rgb(88, 92, 14);
+}
+.champ-5{
+    width: 100%;
+    height: 650px;
+    margin: 27px 10px 10px 10px;
+    border: 2px rgb(66, 66, 4) solid;
+    background-image: url(../img/home/Lux_0.jpg);
+}
+.name5 h3{
+    color:rgb(66, 66, 4)  ;
+}
